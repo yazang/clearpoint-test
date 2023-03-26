@@ -1,0 +1,16 @@
+{
+  "name": "clearpoint-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "npx playwright test tests/api-test.spec.ts",
+    "test:ui": "npx playwright test tests/ui-test.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.32.1"
+  }
+}
